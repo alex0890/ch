@@ -1,0 +1,162 @@
+[
+  {
+    "tag": "aws_cost_optimization_importance",
+    "patterns": [
+      "aws cost optimization importance",
+      "why is aws cost optimization important",
+      "importance of aws cost optimization"
+    ],
+    "responses": [
+      "Here are some of the key reasons why AWS cost optimization is important:\n1. Prevent Over-Spending\n2. Better Utilization of Resources\n3. Better Control Over Costs"
+    ]
+  },
+  {
+    "tag": "vcloudsmart_access_request",
+    "patterns": [
+      "vcloudsmart access request",
+      "vcloudsmart template",
+      "how to obtain access to vcloudsmart",
+      "vcloudsmart access"
+    ],
+    "responses": [
+      "Hi name,\n\nI\u00e2\u20ac\u2122ve noticed you are trying to get access to VCloudSmart. The reason that your request is not successful is due to the fact that you are not part of the GCP AD Group (the pre-requisites).\n\nPlease take a look at the guide bellow\n\nIn order to request access you need to follow some simple steps:\n\n1. Pre-requisites\n\nBefore you can access VCloudSmart, you must be part of the GCP Active Directory (AD) Group: APP-VF-GoogleCloudPlatform. To do this, please send a mail to shahul.hameed@vodafone.com or jas.sanghera@vodafone.com and get their approval via mail and then raise a request Service Catalogue request here(link). Please include the following information in your GCP AD Group Service Catalogue request, and attach the approval e-mail using the 'Add attachments' field at the bottom of the form:\n\nTitle: Add user to GCP AD group\nUrgency: Medium\nBusiness Service Name: VF-PUBLIC CLOUD-GCP PROD\nService/Application: VCloudSmart\nProject: VCloudSmart\nEnvironment: Prod\nAccess Type: Other\nRequest Type: Add\nRole Definition: Other\nPlease specify role: APP-VF-GoogleCloudPlatform\nJustification: I would like to access VCloudSmart, please add me to the GCP AD group\nComments/Questions: I would like to access VCloudSmart, please add me to the GCP AD group\n\n2. After request is completed and you are part of the GCP AD Group please request access to VCloudSmart by raising a Service Catalogue request and fill in the form \u00e2\u20ac\u201c  here(link)\n\nAll the information is also posted on our Public Confluence Page but in case you still need any support please feel free to reach me"
+    ]
+  },
+  {
+    "tag": "cost_optimization_strategies",
+    "patterns": [
+      "cost optimization strategies",
+      "aws cost optimization strategies",
+      "strategies for cost optimization"
+    ],
+    "responses": [
+      "Cost optimization strategies:\n1. Rightsizing\n2. Savings Plans\n3. Rightsizing\n4. Scheduler\n5. Turn off unused resources\n6. Migrate from gp2 to gp3\n7. Use S3 Intelligent\n8. Use Amazon EBS / Optimize EBS\n9. Remove unused IP addresses\n10. Use Spot Instances\n11. Improve/implement caching\n12. Going serverless with Lambda and Fargate\n13. Using Graviton Instances\n14. Adopting AWS Outposts and Karpenter"
+    ]
+  },
+  {
+    "tag": "useful_links",
+    "patterns": [
+      "provide me with useful links",
+      "what are some helpful links?"
+    ],
+    "responses": [
+      "Sure, here are some useful links:\n1. example (<a href='https://www.example.com'>hyperlink</a>)\n2. example (<a href='https://www.example.com'>hyperlink</a>)\n3. example (<a href='https://www.example.com'>hyperlink</a>)"
+    ]
+  },
+  {
+    "tag": "cost_optimization_best_practices",
+    "patterns": [
+      "cost optimization best practices",
+      "aws cost optimization best practices",
+      "best practices for cost optimization"
+    ],
+    "responses": [
+      "Cost Optimization best practices \n\n\u00e2\u20ac\u00a2 Terminating unused resources\n\u00e2\u20ac\u00a2 Savings Plans\n\u00e2\u20ac\u00a2 Rightsizing\n\u00e2\u20ac\u00a2 Scheduling\n\u00e2\u20ac\u00a2 Reserved Instances\n\u00e2\u20ac\u00a2 S3 Intelligent Tiering\n\u00e2\u20ac\u00a2 Delete unused IP addresses\n\u00e2\u20ac\u00a2 Migrating from GP2 to GP3\n\u00e2\u20ac\u00a2 Spot Instances\n\u00e2\u20ac\u00a2 EC2 Graviton instances\n\u00e2\u20ac\u00a2 Going serverless with Lambda and Fargate\n\u00e2\u20ac\u00a2 Implementing caching\n\u00e2\u20ac\u00a2 Adopting AWS Outposts and Karpenter"
+    ]
+  },
+  {
+    "tag": "rightsizing_example",
+    "patterns": [
+      "rightsizing example",
+      "example of rightsizing",
+      "can you give me an example of rightsizing"
+    ],
+    "responses": [
+      "Here's an example of rightsizing: Suppose you have an application that receives a moderate amount of traffic during the day, but experiences spikes in traffic during peak hours. You initially deployed an EC2 (Elastic Compute Cloud) instance with 4 vCPUs (virtual CPUs) and 16 GB of RAM, as you anticipated high traffic demands. However, you noticed that the EC2 instance was only utilizing around 40% of its capacity during peak hours. In this scenario, you could right-size your EC2 instance to a more cost-effective instance type that meets your performance requirements while reducing costs."
+    ]
+  },
+  {
+    "tag": "aws_pre-requisites",
+    "patterns": [
+      "aws pre-requisites"
+    ],
+    "responses": [
+      "For raising a new AWS account, please make sure first to check our Confluence page in order to find out what pre-requisites are required - AWS Pre-requisites - VCI Public Cloud Services - Vodafone Global Confluence.\n\nOnly once all mentioned pre-requisites are in place, please proceed to request the AWS account creation by filling in the dedicated form on Service Catalogue: Service Catalog - Service Catalogue (vodafone.com)."
+    ]
+  },
+  {
+    "tag": "savings_plans_reservations_difference",
+    "patterns": [
+      "savings plans difference reservations",
+      "difference between savings plans and reservations",
+      "how do savings plans and reservations differ"
+    ],
+    "responses": [
+      "The difference between Savings Plans and Reservations is that Savings Plans offer a discount on the hourly rate for usage of EC2 instances and Fargate, whereas Reservations offer a discount on the entire cost of instances, regardless of the hourly rate. Savings Plans provide a more flexible discount, as they apply automatically to usage, regardless of the instance type, size, or operating system, whereas Reservations require you to choose the specific instance types and availability zones that the discount will apply to."
+    ]
+  },
+  {
+    "tag": "aws_account_requirements",
+    "patterns": [
+      "AWS account requirements",
+      "new AWS account",
+      "onboarding existing AWS account"
+    ],
+    "responses": [
+      "Here are some general requirements and steps to onboard a new or existing AWS account:\n1. Sign up for an AWS account if you don't have one already.\n2. Set up multi-factor authentication (MFA) for your root user.\n3. Create an IAM (Identity and Access Management) user for daily access and grant them the necessary permissions.\n4. Set up billing alerts to monitor your account spending.\n5. Create and configure the necessary services for your specific use case.\n6. Implement security best practices, such as using least privilege access and securing your data."
+    ]
+  },
+  {
+    "tag": "testing",
+    "patterns": [
+      "testing"
+    ],
+    "responses": [
+      "my chatbot test is a success"
+    ]
+  },
+  {
+    "tag": "Alex test",
+    "patterns": [
+      "Alex test"
+    ],
+    "responses": [
+      "Alex is my creator"
+    ]
+  },
+  {
+    "tag": "test12345",
+    "patterns": [
+      "test12345"
+    ],
+    "responses": [
+      "www.google.com"
+    ]
+  },
+  {
+    "tag": "calculator",
+    "patterns": [
+      "calculator"
+    ],
+    "responses": [
+      "\u2022\tAWS Calculator: https://calculator.aws/#/\n\u2022\tGCP Calculator: https://cloud.google.com/products/calculator/\n\u2022\tAzure Calculator: https://azure.microsoft.com/en-gb/pricing/calculator/\n"
+    ]
+  },
+  {
+    "tag": "pcs links",
+    "patterns": [
+      "pcs links"
+    ],
+    "responses": [
+      "In order to get familiarized with the PCS offering, different service models and cost model, please check the below links on our Public Confluence:<br>o\tPCS Portfolio: <a href='https://confluence.sp.vodafone.com/pages/viewpage.action?spaceKey=GPCS&title=Public+Cloud+Services'>PCS Portfolio</a><br>o\tPCS Cost Model: <a href='https://confluence.sp.vodafone.com/display/GPCS/PCS+Cost+Model'>PCS Cost Model</a><br>o\tPCS Operating Model & RACI: <a href='https://confluence.sp.vodafone.com/display/GPCS/PCS+Operating+Model+and+RACI'>Model & RACI</a><br>"
+    ]
+  },
+  {
+    "tag": "Hallawantsatest",
+    "patterns": [
+      "Hallawantsatest"
+    ],
+    "responses": [
+      "chatbot is working"
+    ]
+  },
+  {
+    "tag": "drcc",
+    "patterns": [
+      "drcc"
+    ],
+    "responses": [
+      "drcc is in construction'"
+    ]
+  }
+]
